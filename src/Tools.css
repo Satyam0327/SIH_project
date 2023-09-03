@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Button Styles */
+.custom-button {
+    color: white;
+    background-color: #0077cc;
+    /* Add other styles as needed */
+}
+
+/* Drawer Styles */
+.custom-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    width: 20rem;
+    height: 100vh;
+    padding: 1rem;
+    overflow-y: auto;
+    transform: translateX(0);
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.custom-drawer.hidden {
+    transform: translateX(-100%);
+}
+
+.drawer-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #888;
+}
+
+.close-button {
+    color: #888;
+    background-color: transparent;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+}
+
+.close-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.drawer-content {
+    padding-top: 1rem;
+    overflow-y: auto;
+}
+
+.drawer-list {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    /* Add other styles as needed */
+}

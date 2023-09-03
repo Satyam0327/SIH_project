@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-field {
+    appearance: none;
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    color: #777;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    line-height: normal;
+    outline: none;
+}
+
+.input-field:focus {
+    background-color: #fff;
+    border-color: #555;
+}
+
+/* Base styles for the dropdown button */
+.dropdown-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: #ccc;
+    color: #777;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+/* Styles for the arrow icon next to the button text */
+.arrow-icon {
+    width: 2.5px;
+    height: 2.5px;
+    margin-left: 2.5px;
+}
+
+/* Styles for the dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the dropdown list items */
+.dropdown-list {
+    padding: 0.75rem;
+}
+
+/* Styles for each dropdown item */
+.dropdown-list li {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+/* Hover styles for dropdown items */
+.dropdown-list li:hover {
+    background-color: #f2f2f2;
+}

@@ -1,64 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Water Resource Information</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#">Water Resources For development</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-            <button id="showSidebar">Search for states </button>
-            <!-- Your header content -->
-    </header>
-    <div class="sidebar-container">
-        <div class="search-bar">
-            <input type="text" id="stateSearch" placeholder="Search for a state...">
-        </div>
-        <ul class="state-list">
-            <li><a href="#">Andhra Pradesh</a></li>
-            <li><a href="#">Arunachal Pradesh</a></li>
-            <li><a href="#">Assam</a></li>
-        </ul>
-    </div>
-
-
-    <section class="hero">
-        <h2>Explore India's Water Resources</h2>
-        <p>Get the latest information on water availability, usage, and conservation in India.</p>
-        <div id="map" class="india-map"></div>
-        <a href="#" class="cta-button">Learn More</a>
-        <div class="bar-chart-container">
-            <canvas id="barChart"></canvas>
-        </div>
-    </section>
-
-    <section class="info">
-        <h2>Featured Resources</h2>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Indian Water Resource Information</p>
-        
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
